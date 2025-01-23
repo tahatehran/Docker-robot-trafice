@@ -1,0 +1,14 @@
+version: '3.8'
+
+services:
+  request-simulator:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: request-simulator
+    volumes:
+      - .:/app  # Mount the current directory to /app in the container
+    environment:
+      - TOTAL_REQUESTS=100
+      - USER_AGENT=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36
+    restart: unless-stopped
