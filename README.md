@@ -1,4 +1,4 @@
-# Request Simulator
+# robot trafice
 
 The **Request Simulator** is a Python-based application designed to simulate multiple HTTP requests to a list of URLs. It uses `aiohttp` for asynchronous HTTP requests and supports customizable user agents for different browsers and operating systems. The application logs the results of each request and saves them to a JSON file for further analysis.
 
@@ -29,8 +29,8 @@ Before running the application, ensure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/request-simulator.git
-cd request-simulator
+git clone git@github.com:tahatehran/Docker-robot-trafice.git
+cd Docker-robot-trafice
 ````
 ### 2.Set Up the Environment
 
