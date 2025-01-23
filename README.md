@@ -55,3 +55,11 @@ https://example.com
 3. If you want the application to run in the background, you can use Detached mode. This allows the application to continue running without keeping the terminal open.
 
 4. To stop the application, use the appropriate command. This will stop and remove all containers associated with the application.
+5. Run Docker Compose:
+```bash
+docker-compose up --build
+````
+If you want it in the post context .: 
+```bash
+docker-compose up --build -d
+````
